@@ -1,3 +1,3 @@
 #Clipboard- Landing page using html and css
 
-<a href="<img src="https://i.ibb.co/Y7ks812/desktop-preview.jpg" alt="desktop-preview" border="0">"></a>
+<img src="https://i.ibb.co/Y7ks812/desktop-preview.jpg" alt="desktop-preview" border="0">
