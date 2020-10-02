@@ -1,0 +1,65 @@
+.workflow {
+}
+.workflow__content {
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  p {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 1.5;
+
+    margin-bottom: 100px;
+  }
+}
+
+.workflow__grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: auto auto auto;
+
+  width: 960px;
+  margin: auto;
+
+  i {
+    width: fit-content;
+    color: $grayishBlue;
+    display: block;
+    font-size: 30px;
+    margin: auto;
+  }
+  h2 {
+    margin-top: 20px;
+    width: fit-content;
+
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 24px;
+  }
+  p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 2;
+  }
+}
+
+.workflow__images {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  img {
+    margin-top: 100px;
+
+    &:not(:last-child) {
+      margin-right: 100px;
+    }
+  }
+}

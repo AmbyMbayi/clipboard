@@ -1,0 +1,39 @@
+.snippet__content {
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  p {
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
+.snippet__grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  margin-top: 100px;
+}
+.snippet__image {
+  width: fit-content;
+  padding: 10px;
+  margin-left: -200px;
+  overflow: hidden;
+}
+.snippet__text {
+  width: fit-content;
+  padding: 150px;
+
+  h3 {
+  }
+  p {
+    font-size: 18px;
+  }
+}
